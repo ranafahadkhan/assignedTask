@@ -1,0 +1,33 @@
+<!DOCTYPE>
+<html ng-app>
+
+   <head>
+
+      <!-- BOOTSTRAP - CDN -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+   
+      <title>
+         Async Technologies
+      </title>
+   
+   </head>
+
+   <body>
+   
+      <div class="container" ng-controller="AppController">
+         <h4 align="center" ng-repeat="text in textToDisplay">{{text.whatWasTheTask}} {{text.whoAssignedTheTask}}</h4>
+      </div>
+      
+      <!--SCRIPTS-->
+      
+      <!--ANGULAR JS CDN-->
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28/angular.min.js"></script>
+      
+      <!--CONTROLLER-->
+      <script src="controllers/controller.js"></script>
+   
+   </body>
+
+</html>
+
