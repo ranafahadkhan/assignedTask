@@ -8,10 +8,11 @@ To run this applications, Open CMD & run following commands:
 
 - node server
 
-Now open browser and hit this URL http://localhost:3000/
+Now open browser and hit this URL: http://localhost:3000/
 
 Done!
 
 
 Fahad
+
 7-13-2017
